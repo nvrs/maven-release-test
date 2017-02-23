@@ -81,12 +81,12 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <!--<distributionManagement>
+    <distributionManagement>
         <repository>
             <id>nexus</id>
             <name>Atypon Internal Maven Repository</name>
             <url>https://nexus.atypon.com/nexus/content/repositories/passport</url>
         </repository>
-    </distributionManagement>-->
+    </distributionManagement>
 
 </project>
