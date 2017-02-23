@@ -15,5 +15,10 @@
     <artifactId>parent-c</artifactId>
     <version>1.2-SNAPSHOT</version>
 
+    <scm>
+        <connection>scm:git:git://github.com/nvrs/maven-release-test.git</connection>
+        <developerConnection>scm:git:git@github.com:nvrs/maven-release-test.git</developerConnection>
+        <url>scm:git:https://github.com/nvrs/maven-release-test.git</url>
+    </scm>
 
 </project>
