@@ -67,12 +67,12 @@
         </plugins>
     </build>
 
-    <!--<repositories>
+    <repositories>
         <repository>
             <id>nexus</id>
             <url>https://nexus.atypon.com/nexus</url>
         </repository>
-    </repositories>-->
+    </repositories>
 
     <pluginRepositories>
         <pluginRepository>
