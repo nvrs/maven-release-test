@@ -4,7 +4,7 @@
 
     <groupId>com.atypon.passport</groupId>
     <artifactId>releate-test-parent</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <modules>
         <module>parent-a</module>
         <module>parent-b</module>
@@ -16,7 +16,7 @@
         <connection>scm:git:git://github.com/nvrs/maven-release-test.git</connection>
         <developerConnection>scm:git:git@github.com:nvrs/maven-release-test.git</developerConnection>
         <url>scm:git:https://github.com/nvrs/maven-release-test.git</url>
-      <tag>v1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
