@@ -3,19 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>releate-test-parent</artifactId>
+        <artifactId>parent-b</artifactId>
         <groupId>com.atypon.passport</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>library-one</module>
-        <module>library-two</module>
-    </modules>
 
-    <artifactId>parent-c</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>b-application</artifactId>
 
+    <dependencies>
+        <dependency>
+            <artifactId>a-core-thing</artifactId>
+            <groupId>com.atypon.passport</groupId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
