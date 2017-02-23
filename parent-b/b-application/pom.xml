@@ -13,7 +13,7 @@
         <dependency>
             <artifactId>a-core-thing</artifactId>
             <groupId>com.atypon.passport</groupId>
-            <version>${project.version}</version>
+            <version>1.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
