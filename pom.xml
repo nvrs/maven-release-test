@@ -15,8 +15,8 @@
     <packaging>pom</packaging>
 
     <scm>
-        <connection>scm:git@github.com:nvrs/maven-release-test.git</connection>
-        <developerConnection>scm:git@github.com:nvrs/maven-release-test.git</developerConnection>
+        <connection>https://github.com/nvrs/maven-release-test.git</connection>
+        <developerConnection>https://github.com/nvrs/maven-release-test.git</developerConnection>
         <url>https://github.com/nvrs/maven-release-test.git</url>
     </scm>
 
@@ -68,14 +68,12 @@
         </plugins>
     </build>
 
-    <repositories>
-        <!-- NOTE: Don't add additional repositories here!  Instead we need to configure our internal
-              repository to mirror the repository that you need -->
+    <!--<repositories>
         <repository>
             <id>nexus</id>
             <url>https://nexus.atypon.com/nexus</url>
         </repository>
-    </repositories>
+    </repositories>-->
 
     <pluginRepositories>
         <pluginRepository>
@@ -84,12 +82,12 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>nexus</id>
             <name>Atypon Internal Maven Repository</name>
             <url>https://nexus.atypon.com/nexus/content/repositories/passport</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>
