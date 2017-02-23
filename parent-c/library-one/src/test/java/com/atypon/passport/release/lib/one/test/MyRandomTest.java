@@ -13,7 +13,7 @@ public class MyRandomTest {
 
     @Test
     public void testNoNegativeInt() {
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 60; i++) {
             Assert.assertTrue(myRandom.nextNonNegativeInt() > 0);
         }
     }
