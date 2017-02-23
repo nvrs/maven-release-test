@@ -3,7 +3,7 @@
     <parent>
         <artifactId>parent-a</artifactId>
         <groupId>com.atypon.passport</groupId>
-        <version>1.1-SNAPSHOT</version>
+        <version>1.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,12 +13,12 @@
         <dependency>
             <groupId>com.atypon.passport</groupId>
             <artifactId>library-one</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>com.atypon.passport</groupId>
             <artifactId>library-two</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>1.1</version>
         </dependency>
     </dependencies>
 
