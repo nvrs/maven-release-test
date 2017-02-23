@@ -11,6 +11,7 @@ public class CoreThing {
 
     public CoreThing() {
         StringUtil.concat("ab", "cd");
+        StringUtil.inverseConcat("ab", "cd");
     }
 
     public double getDouble() {
