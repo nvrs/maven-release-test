@@ -20,7 +20,7 @@ public class MyRandomTest {
 
     @Test
     public void testDouble() {
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 60; i++) {
             double d = myRandom.nextDouble();
             Assert.assertTrue(d >= 0.0 && d < 1.0);
         }
