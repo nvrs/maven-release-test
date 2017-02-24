@@ -14,6 +14,7 @@ public class StringUtil {
     }
 
     public static boolean isPalindrome(String b) {
+        // normalize first
         String a = b.toLowerCase().replaceAll(" ", "");
         if (a.length() < 2) {
             return true;
