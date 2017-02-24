@@ -18,6 +18,7 @@ public class SomeApp {
     }
 
     public boolean isInit() {
+        // dummy check, dummy comment
         return coreThing != null;
     }
 }
