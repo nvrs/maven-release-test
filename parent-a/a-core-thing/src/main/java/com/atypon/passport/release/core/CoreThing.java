@@ -7,6 +7,7 @@ import com.atypon.passport.release.lib.two.StringUtil;
  *
  */
 public class CoreThing {
+    // comment
     private final MyRandom random = new MyRandom();
 
     public CoreThing() {
