@@ -27,5 +27,6 @@ public class CoreThingTest {
             TimeUnit.MILLISECONDS.sleep(3000L);
             throw new RuntimeException("Triggering module build failure");
         }
+
     }
 }
