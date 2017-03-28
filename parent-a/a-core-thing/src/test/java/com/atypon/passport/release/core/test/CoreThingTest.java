@@ -23,9 +23,9 @@ public class CoreThingTest {
 
     @Test
     public void testThatMayFail() throws InterruptedException {
-//        if (Boolean.valueOf(System.getProperty("coreThingFail"))) {
+        if (Boolean.valueOf(System.getProperty("coreThingFail"))) {
             TimeUnit.MILLISECONDS.sleep(3000L);
             throw new RuntimeException("Triggering module build failure");
-//        }
+        }
     }
 }
